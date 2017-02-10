@@ -3,8 +3,7 @@ csvURL: https://docs.google.com/spreadsheets/d/1YAMUyk16E1vY3Pbz1kpHe5f18Xk1JyLG
 
 # add '(Y/N)' to the field name to return an 'if exists' Boolean
 fields:
-    Our Work Module (Y/N)': '//h2[@class="section-hdr"][text()="Our work."]'
-    Related Module (Y/N)': '//div[@class="related"]'
-    Related Module - Work (Y/N)': '//a[@class="related__additional"]//span[text()="All Work"]'
+    name (Y/N)': '//dl/dd[2]/dl/dt[1]'
+    strasse (Y/N)': '//dl/dd[4]/p/text()[2]'
 
 output: scraped.csv
